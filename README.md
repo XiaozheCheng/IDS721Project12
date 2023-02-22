@@ -10,4 +10,4 @@ python app.py
 ```
 
 and navigate to `http://localhost:8080` then upload to aws.
-You can [run](https://rbnacmcp2b.us-east-1.awsapprunner.com) here.
+
