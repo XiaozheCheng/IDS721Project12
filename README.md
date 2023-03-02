@@ -19,7 +19,7 @@ ___Kubernetes:___
 7. Curl web service: i.e. `curl http://192.168.49.2:31174`
 8. Cleanup and stop: 
 ```bash
-kubectl delete service get-songs
-kubectl delete deployment get-songs
+kubectl delete service ids721p2
+kubectl delete deployment ids721p2
 minikube stop
 ````
