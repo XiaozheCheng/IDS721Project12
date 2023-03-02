@@ -6,7 +6,7 @@ This is my project 2 for the IDS721, it is a flask microservices which can searc
 ## Implementation 
 ___Docker:___   
 
-* After you clone this project, to build the Docker in local, you could type ``docker build -t xc200/721p2:latest .``, and then type ``docker image ls`` to verify the images you get, finally, typing ``docker run -p 8080:8080 xc200/721p2`` to run the application. Then I push it onto DockerHub by `` docker tag xc200/721p2:latest xc200/721p2:latest`` and ``then docker push xc200/721p2:latest``
+* After you clone this project, to build the Docker in local, you could type ``docker build -t xc200/721p2:latest .``, and then type ``docker image ls`` to verify the images you get, finally, typing ``docker run -p 8080:8080 xc200/721p2`` to run the application. Then I push it onto DockerHub by `` docker tag xc200/721p2:latest xc200/721p2:latest`` and then ``docker push xc200/721p2:latest``
 * You could also run the Docker without cloning this project, you could pull the image from the **DockerHub** by typing ``docker pull xc200/721p2:latest``, and then typing ``docker run -p 8080:8080 xc200/721p2:latest`` to run the application.
 
 ___Kubernetes:___  
